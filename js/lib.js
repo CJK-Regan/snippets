@@ -48,7 +48,6 @@ function $post(url, argus, callback) {
 function $uploadFile(url, input, callback) {
     var ajax = new XMLHttpRequest();
     ajax.open("POST", url, true);
-    ajax.setRequestHeader("Content-Type", "multipart/form-data");
     var formData = new FormData();
     formData.append(input.name, input.files[0]);
     ajax.onreadystatechange = function() {
