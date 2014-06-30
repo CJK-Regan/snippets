@@ -6,4 +6,4 @@ alias autoclean='sudo apt-get autoclean'
 alias autoremove='sudo apt-get autoremove'
 
 alias proxy='nohup python ~/goagent/local/proxy.py > proxylog &'
-alias ap='sudo nohup bash ~/projects/snippets/config/ap.sh > aplog &'
+alias ap='sudo nohup bash ~/projects/snippets/bash/ap.sh > aplog &'
