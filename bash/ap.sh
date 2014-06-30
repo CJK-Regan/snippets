@@ -33,7 +33,7 @@ sudo dhcpd wlan0 -cf /tmp/dhcpd.conf -pf /var/run/dhcp-server/dhcpd.pid
 cat > /tmp/hostapd.conf << EOF
 interface=wlan0
 driver=nl80211
-ssid=`hostname`-ap
+ssid=regan-ap
 hw_mode=g
 channel=11
 auth_algs=1
