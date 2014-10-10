@@ -9,3 +9,4 @@ alias csv='csvtool readable'
 
 alias proxy='nohup python ~/projects/goagent/local/proxy.py > ~/proxylog &'
 alias ap='sudo nohup bash ~/projects/snippets/bash/ap.sh > ~/aplog &'
+alias sshproxy='ssh -CfNg root@104.131.40.189 -D 127.0.0.1:1080'
